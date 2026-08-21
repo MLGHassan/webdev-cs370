@@ -49,6 +49,7 @@ section {
     height: 75vh;
     padding: 5%;
     max-height: 100%;
+    padding-top: 0;
 }
 
 footer {
@@ -57,7 +58,7 @@ footer {
 
 h1 {
     font-family: "Kanchenjunga", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 3rem;
 }
@@ -66,4 +67,16 @@ p {
     font-family: "Kanchenjunga", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 2rem;
+}
+
+img {
+    width: 20%;
+    border-radius: 25px;
+}
+
+.img-con {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
 }
